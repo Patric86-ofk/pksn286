@@ -1,0 +1,19 @@
+/* Make sure the image scales properly on all devices */
+.image-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Optional: Add some styling to ensure proper display on various devices */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}

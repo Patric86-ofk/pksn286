@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur Organisasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            text-align: center;
+            width: 80%;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        .box {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .box img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .box h3 {
+            margin: 10px 0 5px;
+        }
+        .box p {
+            margin: 5px 0;
+        }
+        .central-box {
+            position: relative;
+            display: inline-block;
+        }
+        .line {
+            position: absolute;
+            width: 1px;
+            background-color: #ccc;
+            left: 50%;
+        }
+        .horizontal-line {
+            height: 50px;
+            top: 100%;
+        }
+        .vertical-line {
+            height: 100px;
+            bottom: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                <img src="https://via.placeholder.com/100" alt="CTO">
+                <h3>CTO</h3>
+                <p>Jane Smith</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/100" alt="CFO">
+                <h3>CFO</h3>
+                <p>Richard Roe</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/100" alt="COO">
+                <h3>COO</h3>
+                <p>Mary Major</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box">
+                <img src="https://via.placeholder.com/100" alt="CMO">
+                <h3>CMO</h3>
+                <p>James Bond</p>
+            </div>
+            <div class="box central-box">
+                <img src="https://via.placeholder.com/100" alt="CEO">
+                <h3>CEO</h3>
+                <p>John Doe</p>
+                <div class="line horizontal-line"></div>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/100" alt="HR Manager">
+                <h3>HR Manager</h3>
+                <p>Susan Storm</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box">
+                <img src="https://via.placeholder.com/100" alt="IT Manager">
+                <h3>IT Manager</h3>
+                <p>Bruce Wayne</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/100" alt="Marketing Manager">
+                <h3>Marketing Manager</h3>
+                <p>Peter Parker</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/100" alt="Sales Manager">
+                <h3>Sales Manager</h3>
+                <p>Clark Kent</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box">
+                <img src="https://via.placeholder.com/100" alt="Customer Service Manager">
+                <h3>Customer Service Manager</h3>
+                <p>Diana Prince</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/100" alt="Finance Manager">
+                <h3>Finance Manager</h3>
+                <p>Tony Stark</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html

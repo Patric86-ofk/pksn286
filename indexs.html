@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Organisasi</title>
+    <link rel="stylesheet" href="stylesssss.css">
+</head>
+<body>
+    <div class="background">
+        <div class="mini-login-container">
+            <div class="mini-login-form">
+                <h2>Pendaftaran Organisasi PKS</h2>
+                <form id="registrationForm">
+                    <div class="form-group">
+                        <label for="nama">Nama:</label>
+                        <input type="text" id="nama" name="nama" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="kelas">Kelas:</label>
+                        <input type="text" id="kelas" name="kelas" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="jurusan">Jurusan:</label>
+                        <input type="text" id="jurusan" name="jurusan" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="asalSekolah">Asal Sekolah:</label>
+                        <input type="text" id="asalSekolah" name="asalSekolah" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="namaOrangTua">Nama Orang Tua:</label>
+                        <input type="text" id="namaOrangTua" name="namaOrangTua" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nomorHandphone">Nomor Handphone:</label>
+                        <input type="text" id="nomorHandphone" name="nomorHandphone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pesanKesan">Pesan dan Kesan:</label>
+                        <textarea id="pesanKesan" name="pesanKesan" required></textarea>
+                    </div>
+                    <button type="button" onclick="sendMessage()">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
